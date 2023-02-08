@@ -1,7 +1,7 @@
 # afad-api
 
-## Licence
-> MIT Licence
+## License
+> MIT License
 
 ## Setup
 1. Extract the ZIP file named `simplehtmldom_1_9_1` to the folder it is in
@@ -18,7 +18,7 @@ See Line 3 in `api.php` to change this.
 4 |
 5 | //...
 ```
-4. The variable $api_url in the *example.php* file is the full path to the file to which the api requests will be sent. Do not forget to change this.
+4. The variable $api_url in the `example.php` file is the full path to the file to which the api requests will be sent. Do not forget to change this.
 
 ## How to Use
 
