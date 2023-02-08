@@ -1,4 +1,4 @@
-# afad-api
+# afad-earthquakes-api
 
 ## What is AFAD?
 
