@@ -3,7 +3,7 @@
 $scheme = "http://";
 $domain = $_SERVER['SERVER_NAME'];
 $port = ":8080"; // for Localhost
-$api_dir = "/dep/api.php";
+$api_dir = "api.php";
 $api_request = "?lang=en";
 /*
 	EN:
