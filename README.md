@@ -1,5 +1,9 @@
 # afad-api
 
+## What is AFAD?
+
+AFAD is a public institution established for disasters and emergencies in Turkey. Its abbreviation is English, Disaster and Emergency Management Presidency. This API presents AFAD's data for the last 100 earthquakes in Turkey.
+
 ## License
 > MIT License
 
