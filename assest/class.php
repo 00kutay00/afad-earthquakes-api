@@ -16,7 +16,7 @@ class AfadApi {
 	private $lang = "";
 	
 	function __construct($language) {
-		$this->lang = $language;
+		$this->lang = strlower($language);
 		
 		include_once "simplehtmldom_1_9_1/simple_html_dom.php";
 		
@@ -63,11 +63,10 @@ class AfadApi {
 			),
 			"result" => array()
 		);
+
+		if ()
 		switch ($this->lang) {
 			case "tr":
-			case "TR":
-			case "Tr":
-			case "tR":
 				$select_qua = $this->get_curl_quakes();
 				foreach ($select_qua as $qua_elem) {
 					$qua = array(
@@ -83,9 +82,6 @@ class AfadApi {
 				}
 				break;
 			case "en":
-			case "EN":
-			case "En":
-			case "eN":
 				$select_qua = $this->get_curl_quakes();
 				foreach ($select_qua as $qua_elem) {
 					$qua = array(
